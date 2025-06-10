@@ -19,7 +19,7 @@ A simple, lightweight, file-based cache implementation for PHP that adheres to t
 Install the package via Composer:
 
 ```bash
-composer require solo/file-cache
+composer require solophp/file-cache
 ```
 
 ## Requirements
