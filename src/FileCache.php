@@ -152,8 +152,7 @@ class FileCache implements CacheInterface
     private function validateKey(string $key): void
     {
         if ($key === '' || !preg_match('/^[a-zA-Z0-9_.]+$/', $key)) {
-            throw new class("Invalid cache key: {$key}") extends \InvalidArgumentException implements InvalidArgumentException {
-            };
+            throw new CacheInvalidArgumentException("Invalid cache key: {$key}");
         }
     }
 }

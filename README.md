@@ -1,6 +1,6 @@
 # Solo FileCache
 
-[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/solophp/file-cache)
+[![Version](https://img.shields.io/badge/version-1.1.0-blue.svg)](https://github.com/solophp/file-cache)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 A simple, lightweight, file-based cache implementation for PHP that adheres to the PSR-16 Simple Cache standard. `Solo\FileCache` provides a straightforward way to cache data using the filesystem with TTL (time-to-live) support, making it ideal for small to medium-sized projects where external dependencies like Redis or Memcached are not desired.
